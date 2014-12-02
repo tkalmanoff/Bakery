@@ -1,0 +1,159 @@
+body{
+	font-family: 'IM Fell English SC', serif;
+	font-size: 30px;
+	background-image: url("k16321362.jpg");
+}
+
+#frame{
+	background-color:white;
+	padding: 15px 30px 0px 30px;
+	margin-right: 200px;
+	margin-left: 200px;
+}
+
+li{
+	display:inline-block;
+	padding: 50px 40px 50px 40px;
+}
+
+/*Navigation Bar*/
+
+#nav{
+	text-align: center;
+	padding: 10px 67px 10px 60px;
+	font-size: 30px;
+	background-color: white;
+	position:fixed;
+	opacity: .75;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color:black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+#logo{
+	margin:0 auto;
+	text-align: center;
+	height: 50%;
+	width: 50%;
+}
+
+/*Center Photo*/
+
+.center{
+	margin: 0 auto;
+	text-align: center;
+}
+
+#centerphoto{
+	width: 85%;
+	height: 85%;
+	text-align:center;
+}
+
+.content{
+	padding: 50px 0px 50px 0px;
+}
+
+.first{
+	padding-top: 200px;
+}
+/*Footer*/
+
+.footer{
+	background-color: white;
+	opacity: .85;
+	font-size: 30px;
+	text-align: center;
+	margin-right: 200px;
+	margin-left: 200px;
+	padding: 100px, 150px, 100px, 100px;
+	word-spacing:60px;
+}
+
+/* About Page */
+
+#mamapic {
+	text-align: left;
+	float:left;
+	width: 70%;
+	height:70%;
+	padding:200px 20px 20px 20px;
+}
+
+.aboutpic{
+	width:900px;
+	height:600px;
+	padding: 20px;
+}
+
+.floatright{
+	margin: auto 0;
+	text-align: right;
+	float:right;
+}
+
+.floatleft{
+	text-align: left;
+	float:left;
+}
+
+/* Ingredients Page */
+
+.ingredientpic{
+	padding: 20px;
+}
+
+/* Menu Page */
+table, th, td {
+	margin: auto 0;
+    border: 5px double black;
+    height: 50px;
+    width: 900px;
+    text-align: center;
+    margin: auto 0;
+    border-spacing: 5px;
+    padding: 30px;
+}
+
+td{
+	padding:10px;
+}
+
+.title{
+	text-decoration: bold;
+}
+
+.form{
+	text-align: left;
+	padding:10px;
+}
+
+.line{
+	margin: 0 auto;
+	border-bottom: solid;
+	text-align: left;
+}
+
+/* QUESTIONS */
+/*
+- Logo
+- Footer center
+- Menu page table spacing
+- Menu page titles Bold
+- About page image float
+*/
