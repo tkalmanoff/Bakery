@@ -1,6 +1,6 @@
 body{
 	font-family: 'IM Fell English SC', serif;
-	font-size: 30px;
+	font-size: 26px;
 	background-image: url("k16321362.jpg");
 }
 
@@ -13,18 +13,17 @@ body{
 
 li{
 	display:inline-block;
-	padding: 50px 40px 50px 40px;
+	padding: 10px 50px 10px 50px;
+	word-spacing: 40px;
+	font-size: 30px
 }
 
 /*Navigation Bar*/
 
 #nav{
 	text-align: center;
-	padding: 10px 67px 10px 60px;
 	font-size: 30px;
 	background-color: white;
-	position:fixed;
-	opacity: .75;
 }
 
 a:link {
@@ -46,11 +45,11 @@ a:active {
 }
 
 #logo{
-	margin:0 auto;
 	text-align: center;
-	height: 50%;
-	width: 50%;
+	height: 207px;
+	width: 233px;
 }
+
 
 /*Center Photo*/
 
@@ -66,23 +65,22 @@ a:active {
 }
 
 .content{
-	padding: 50px 0px 50px 0px;
+	padding: 0px 0px 50px 0px;
 }
 
-.first{
-	padding-top: 200px;
-}
 /*Footer*/
 
-.footer{
+#footer{
 	background-color: white;
 	opacity: .85;
 	font-size: 30px;
 	text-align: center;
 	margin-right: 200px;
 	margin-left: 200px;
-	padding: 100px, 150px, 100px, 100px;
+	padding: 20px, 100px, 20px, 100px;
 	word-spacing:60px;
+	padding:0px 20px 0px 20px;
+	text-align: center;
 }
 
 /* About Page */
@@ -92,7 +90,6 @@ a:active {
 	float:left;
 	width: 70%;
 	height:70%;
-	padding:200px 20px 20px 20px;
 }
 
 .aboutpic{
@@ -110,6 +107,11 @@ a:active {
 .floatleft{
 	text-align: left;
 	float:left;
+}
+
+.aboutframe{
+	border:double;
+	padding:20px 20px 20px 20px;
 }
 
 /* Ingredients Page */
@@ -151,9 +153,5 @@ td{
 
 /* QUESTIONS */
 /*
-- Logo
 - Footer center
-- Menu page table spacing
-- Menu page titles Bold
-- About page image float
 */
